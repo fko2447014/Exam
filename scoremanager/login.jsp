@@ -6,7 +6,7 @@
 </head>
 <body>
     <h2>ログイン</h2>
-
+<!--ok-->
     <%
         String username = request.getParameter("username");
         String password = request.getParameter("password");
