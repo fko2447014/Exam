@@ -17,7 +17,7 @@
             if (userid.equals("admin") && password.equals("password123")) {
                 loginSuccess = true;
                 // ログイン成功 → home.jsp にリダイレクト（コメントなしで）
-                response.sendRedirect("home.jsp");
+                response.sendRedirect("menu.jsp");
                 return;
             }
         }
@@ -46,4 +46,4 @@
     </footer>
 </body>
 </html>
-<p>asdf</p>
+

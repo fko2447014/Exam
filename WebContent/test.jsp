@@ -7,10 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>学制情報登録</h2>
+<h2>学生情報登録</h2>
 <p>登録が完了しました。</p>
-<a class="superlink" href="home.jsp">戻る</a>
-<a class="superlink" href="StudentsList.jsp">学生一覧</a>
+<a class="superlink" href="StudentRegistration.jsp">戻る</a>
+<a class="superlink" href="student_list.jsp">学生一覧</a>
 <label></label>
 </body>
 </html>

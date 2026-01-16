@@ -33,15 +33,15 @@
 </head>
 <body>
     <div class="container">
-        <h2>科目情報削除</h2>
+        <h2>学生情報削除</h2>
         <p>
             「${subject.name}（${subject.code}）」を削除してもよろしいですか？
         </p>
-        <form action="Student_list_done.jsp" method="post">
+        <form action="SubjectDelete.action" method="post">
             <input type="hidden" name="code" value="${subject.code}" />
             <input type="submit" value="削除" class="button" />
         </form>
-        <a href="student_list.jsp" class="link">戻る</a>
+        <a href="Student_list" class="link">戻る</a>
     </div>
 </body>
 
